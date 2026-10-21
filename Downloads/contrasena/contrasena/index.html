@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Validador de Contraseña</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        .mensaje-valido {
+            color: green;
+            font-weight: bold;
+        }
+        .mensaje-error {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Formulario de Registro</h2>
+    
+    <form id="formularioContrasena">
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" required> //ingrese contrasena forma segura
+        <button type="submit">Validar</button>
+    </form>
+
+    <p id="mensaje"></p>
+
+   
+    <p id="demo"> </p>
+    <script src="contra.js"></script>
+    </script>
+
+</body>
+</html>
